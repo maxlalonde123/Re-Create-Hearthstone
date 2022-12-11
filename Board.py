@@ -19,7 +19,5 @@ class Board:
         card.set_pos_num(pos)
         return 0
 
-    #Testing for git push
-
     def remove_card(card):
         players[card.owner].pop(card.pos)
